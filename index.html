@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -10,7 +13,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="IMG_0501.JPG" alt="">
+            <img src="image_files/339655939_599265202307179_2724506562783191110_n.jpg" alt="">
         </div>
         <div id="hamburger">
             <div class="line"></div>
@@ -26,11 +29,6 @@
                 <li>
                     <a href="#about">about</a>
                 </li>
-                <li>
-                    <a href="#picks">picks</a>
-                </li>
-                <li>
-                    <a href="#events">events</a>
                 </li>
             </ul>
         </div>
@@ -67,16 +65,56 @@
                 </div>
             </div>
         </section>
-        <section id="gallery"></section>
-        
+        <section id="gallery">
+            <h1>our projects captured</h1>
+            <div class="imagecont">
+                <img src="image_files/image1.jpg" width="40">
+                <img src="image_files/image2.jpg">
+                <img src="image_files/image3.jpg">
+                <img src="image_files/image4.jpg">
+                <img src="image_files/image5.jpg">
+                <img src="image_files/image6.jpg">
+                <img src="image_files/image7.jpg">
+            </div>
+        </section>
         <footer>
-            <h1>connect with us on social media</h1>
-            <div class="links">
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
+            <h1>connect with us</h1>
+            <div class="container">
+                <div class="form">
+                    <h2>please fill out this form to help support our organization</h2>
+                    <form action="site.php">
+                        <h3>what is your name</h3>
+                        <input type="text" name="name" placeholder="your name">
+                        <h3>where are you located</h3>
+                        <input type="text" name="location" placeholder="location">
+                        <h3>what do you do</h3>
+                        <input type="text" name="work" placeholder="what you do">
+                        <h3>what do you know about our organization</h3>
+                        <input type="text" name="info" placeholder="what you kmow">
+                        <h3>why do you want to volunteer with us</h3>
+                        <input type="text" name="reason" placeholder="why you want to help">
+                        <h3>tell us about yourself</h3>
+                        <input type="text" name="about" placeholder="about you">
+                        <h3>do you prefer to work with a team or yourself</h3>
+                        <input type="radio">team
+                        <input type="radio">by yourself
+                        <h3>mode of communication</h3>
+                        <input type="radio">phone
+                        <input type="radio">email
+                        <input type="radio">text message
+                        <h3>contact information</h3>
+                        <input type="text" name="contact" placeholder="contact info">
+                        <input type="submit" name="" id="">
+                    </form>
+                </div>
+                <div class="socials">
+                    <h2>discover us on socials</h2>
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </main>
